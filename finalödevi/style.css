@@ -1,0 +1,452 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+:root {
+  --main-color: #a5a08b;
+  --black-color: #0e0e0e;
+  --border: 0.1rem solid rgba(255, 255, 255, 0.4);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: 0;
+}
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s ease;
+}
+
+/*! base htmlcodes */
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--main-color);
+}
+
+section {
+  padding: 3.5rem 7%;
+}
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 2rem 3.75rem;
+  border-radius: 30rem;
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: var(--black-color);
+  cursor: pointer;
+}
+
+/*! header start */
+.header .logo img {
+  height: 10rem;
+}
+.another .tarih img {
+  height: 45rem;
+}
+.ark .arkeolojisi img {
+  height: 45rem;
+}
+.nüm .nümanizmatik img {
+  height: 30rem;
+}
+.pal .paleografi img {
+  height: 35rem;
+}
+.jen .jeneoloji img {
+  height: 40rem;
+}
+.kro .kronoloji img {
+  height: 35rem;
+}
+.h .etnografya img {
+  height: 35rem;
+}
+.ul .uluslar img {
+  height: 30rem;
+}
+.si .siyaset img {
+  height: 30rem;
+}
+.is .isletme img {
+  height: 40rem;
+}
+.ek .ekonomi img {
+  height: 40rem;
+}
+.dem .demografi img {
+  height: 30rem;
+}
+.huk .hukuk img {
+  height: 35rem;
+}
+.psi .psikoloji img {
+  height: 35rem;
+}
+.sos .sosyoloji img {
+  height: 35rem;
+}
+.ant .antropoloji img {
+  height: 35rem;
+}
+.et .etnoloji img {
+  height: 35rem;
+}
+.teo .teoloji img {
+  height: 35rem;
+}
+.kri .kriminoloji img {
+  height: 35rem;
+}
+
+.header {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 7%;
+  margin: 2rem 7%;
+  border-radius: 30rem;
+  box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.75);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header .navbar a {
+  margin: 0 1rem;
+  font-size: 1.6rem;
+  color: var(--black-color);
+  border-bottom: 0.1rem solid transparent;
+}
+
+.header .navbar .active,
+.header .navbar a:hover {
+  border-color: var(--main-color);
+  padding-bottom: 0.5rem;
+}
+
+.header .buttons button {
+  cursor: pointer;
+  font-size: 2.5rem;
+  margin-left: 2rem;
+  background-color: transparent;
+}
+/*! header end */
+
+/*! home start */
+.home {
+  min-height: 100vh;
+  background: url(../finalödevi/images/ana.img.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -14.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.home .content {
+  max-width: 60rem;
+}
+
+.home .content h3 {
+  font-size: 6rem;
+  color: rgb(0, 0, 0);
+}
+.a .tarih h2 {
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+}
+.b .arkeoloji h5 {
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+}
+.c .nümanizmatik h6 {
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+}
+.d .paleografi h7 {
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+}
+.e .jeneoloji h8 {
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+}
+.f .kronoloji h9 {
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+}
+.g .filoloji h10 {
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+}
+.h .etnografya h11 {
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+}
+.ı .uluslar h12 {
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+}
+.i .siyaset h13 {
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+}
+.j .isletme h14 {
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+}
+.k .ekonomi h15 {
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+}
+.l .demografi h16 {
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+}
+.m .hukuk h17 {
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+}
+.n .psikoloji h18 {
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+}
+.o .sosyoloji h19 {
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+}
+.p .antropoloji h20 {
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+}
+.r .etnoloji h21 {
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+}
+.s .teoloji h22 {
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+}
+.t .kriminoloji h23 {
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+}
+.home .content p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  padding: 1rem 0;
+  color: rgb(12, 12, 12);
+}
+.a .tarih p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  padding: 2rem 1;
+  color: rgb(22, 22, 22);
+}
+.b .arkeoloji p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  padding: 2rem 1;
+  color: rgb(22, 22, 22);
+}
+.c .nümanizmatik p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  padding: 2rem 1;
+  color: rgb(22, 22, 22);
+}
+.d .paleografi p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  padding: 2rem 1;
+  color: rgb(22, 22, 22);
+}
+.e .jeneoloji p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  padding: 2rem 1;
+  color: rgb(22, 22, 22);
+}
+.f .kronoloji p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  padding: 2rem 1;
+  color: rgb(22, 22, 22);
+}
+.g .filoloji p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  padding: 2rem 1;
+  color: rgb(22, 22, 22);
+}
+.h .etnografya p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  padding: 2rem 1;
+  color: rgb(22, 22, 22);
+}
+
+.ı .uluslar p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  padding: 2rem 1;
+  color: rgb(22, 22, 22);
+}
+.i .siyaset p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  padding: 2rem 1;
+  color: rgb(22, 22, 22);
+}
+.j .isletme p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  padding: 2rem 1;
+  color: rgb(22, 22, 22);
+}
+.k .ekonomi p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  padding: 2rem 1;
+  color: rgb(22, 22, 22);
+}
+.l .demografi p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  padding: 2rem 1;
+  color: rgb(22, 22, 22);
+}
+.m .hukuk p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  padding: 2rem 1;
+  color: rgb(22, 22, 22);
+}
+.n .psikoloji p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  padding: 2rem 1;
+  color: rgb(22, 22, 22);
+}
+.o .sosyoloji p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  padding: 2rem 1;
+  color: rgb(22, 22, 22);
+}
+.p .antropoloji p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  padding: 2rem 1;
+  color: rgb(22, 22, 22);
+}
+.r .etnoloji p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  padding: 2rem 1;
+  color: rgb(22, 22, 22);
+}
+.s .teoloji p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  padding: 2rem 1;
+  color: rgb(22, 22, 22);
+}
+.t .kriminoloji p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  padding: 2rem 1;
+  color: rgb(22, 22, 22);
+}
+
+ul.main {
+  background-color:white;
+  height: 50px;
+}
+ul.main > li {
+  float: left;
+  position: relative;
+}
+ul li a:hover {
+  background-color: red;
+}
+
+ul.main > li > a {
+  display: block;
+  font-size: 20px;
+  color: #0e0e0e;
+  padding: 0 15px;
+  line-height: 70px;
+ 
+}
+
+ul.main ul {
+  background-color:white;
+  width: 200px;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  opacity: 0;
+  transition: 250ms all;
+  visibility: hidden;
+}
+ul.main ul li {
+  position: relative;
+}
+
+ul.main ul li a {
+  display: block;
+  padding: 7px 12px;
+  color: black;
+  font-size: 14px;
+}
+
+ul.main > li ul ul {
+  top: 0;
+  left: 180px;
+}
+
+ul.main > li:hover > ul {
+  opacity: 1;
+  visibility: visible;
+  top: 50px;
+}
+ul.main ul li:hover > ul {
+  opacity: 1;
+  visibility: visible;
+  left: 200px;
+}
+
+/*! home end */
